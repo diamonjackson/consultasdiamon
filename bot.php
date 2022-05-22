@@ -23,7 +23,7 @@ if ($message == '/start' xor $message == '!start') {
 }
 // !cmds comando
 if ($message == '/cmds' xor $message == '!cmds') {
-    sendMessage($chat_id, "Todos los comandos funcionan con (/) o (!)\n-» <b>!dni</b> - Búsqueda de información de un <b>DNI</b> de Perú\n-» <b>!ruc</b> - Búsqueda de información de una <b>RUC</b> de Perú\nBot creado por @caspercardergil", $message_id);
+    sendMessage($chat_id, "Todos los comandos funcionan con (/) o (!)\n-» <b>!dni</b> - Búsqueda de información de un <b>DNI</b> de Perú\n-» <b>!ruc</b> - Búsqueda de información de una <b>RUC</b> de Perú\nBot creado por @diamonjackson", $message_id);
 }
 // !dni comando
 if ((strpos($message, "!dni") === 0) xor (strpos($message, "/dni") === 0)) {
