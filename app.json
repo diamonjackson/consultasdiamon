@@ -1,0 +1,26 @@
+{
+    "name": "Diamon Jackson",
+    "description": "DiamonCheck",
+    "keywords": [
+        "CONSULTA",
+        "Bot"
+    ],
+    "website": "https://github.com/diamonjackson/",
+    "repository": "https://github.com/diamonjackson/consultasdiamon/",
+    "success_url": "/",
+    "env": {
+        "API_TOKEN": {
+            "description": "API Token , get it from @BotFather"
+        },
+        "START_MSG": {
+           "description": "Enter Custom Start Message"
+    }
+    },
+    "formation": {
+        "web": {
+            "quantity": 1,
+            "size": "free"
+        }
+    },
+    "image": "heroku/php"
+}
