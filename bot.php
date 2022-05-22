@@ -39,7 +39,7 @@ if ((strpos($message, "!dni") === 0) xor (strpos($message, "/dni") === 0)) {
         if (empty($nombres)) {
             $dni_msg = "<b>DNI NO ENCONTRADO</b>";
         } else {
-            $dni_msg = "-» <b>DB:</b> <i>CONSULTA RUC 🇵🇪</i>\n-» <b><u>DNI:</u></b> ".$dni."\n-» <u><b>Apellidos:</b></u> ".$apellidoP." ".$apellidoM."\n-» <b><u>Nombres:</u></b> ".$nombres."\nBot creado por @caspercardergil";
+            $dni_msg = "-» <b>DB:</b> <i>CONSULTA RUC 🇵🇪</i>\n-» <b><u>DNI:</u></b> ".$dni."\n-» <u><b>Apellidos:</b></u> ".$apellidoP." ".$apellidoM."\n-» <b><u>Nombres:</u></b> ".$nombres."\nBot creado por @diamonjackson";
         }
     }
     sendMessage($chat_id, $dni_msg, $message_id);
@@ -72,7 +72,7 @@ if ((strpos($message, "!ruc") === 0) xor (strpos($message, "/ruc") === 0)) {
         if (empty($ple)) {
             $ruc_msg = "-» <b>ERROR:</b> ".$mensajeruc."";
         } else {
-            $ruc_msg = "-» <b><u>DB:</u></b> <i>Binvoice.Net 🇵🇪</i>\n-» <b><u>RUC:</u></b> ".$ruc."\n-» <b><u>Razón social:</u></b> ".$razon_social."\n-» <b><u>Nombre comercial:</u></b> ".$nombre_comercial."\n-» <b><u>Tipo:</u></b> ".$tipo."\n-» <b><u>Fecha de inscripción:</u></b> ".$fecha_inscripcion."\n-» <b><u>Estado:</u></b> ".$estado."\n-» <b><u>Dirección:</u></b> ".$direccion."\n-» <b><u>Ple</u></b> ".$ple."\n-» <b><u>Actividad Económica:</u></b>\n    •<b>Ciiu:</b> ".$actividad_economica_ciiu."\n   •<b>Descripción:</b> ".$actividad_economica_descripcion."\nBot creado por @caspercardergil";
+            $ruc_msg = "-» <b><u>DB:</u></b> <i>Binvoice.Net 🇵🇪</i>\n-» <b><u>RUC:</u></b> ".$ruc."\n-» <b><u>Razón social:</u></b> ".$razon_social."\n-» <b><u>Nombre comercial:</u></b> ".$nombre_comercial."\n-» <b><u>Tipo:</u></b> ".$tipo."\n-» <b><u>Fecha de inscripción:</u></b> ".$fecha_inscripcion."\n-» <b><u>Estado:</u></b> ".$estado."\n-» <b><u>Dirección:</u></b> ".$direccion."\n-» <b><u>Ple</u></b> ".$ple."\n-» <b><u>Actividad Económica:</u></b>\n    •<b>Ciiu:</b> ".$actividad_economica_ciiu."\n   •<b>Descripción:</b> ".$actividad_economica_descripcion."\nBot creado por @diamonjackson";
         }
     }
     sendMessage($chat_id, $ruc_msg, $message_id);
