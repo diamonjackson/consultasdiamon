@@ -31,7 +31,7 @@ if ((strpos($message, "!dni") === 0) xor (strpos($message, "/dni") === 0)) {
     if (empty($dni_cmd)) {
         $dni_msg = "<u><b>Busqueda de DNI</b></u>\n-» <b>Formato:</b> <i>!dni DNI</i>";
     } else {
-        $dnidata = json_decode(file_get_contents('https://api.apis.net.pe/v1/dni?numero='.$dni_cmd.'&tipo=D&origen=1'),true);
+        $dnidata = json_decode(file_get_contents('https://consulta.api-peru.com/api/dni/'.$dni_cmd.'&tipo=D&origen=1'),true);
         $dni = $dnidata['dni'];
         $apellidoP = $dnidata['paterno'];
         $apellidoM = $dnidata['materno'];
