@@ -1,5 +1,5 @@
 <?php
-    $apitoken = "5323179123:AAHVgAuJP62gZGFcgDAHHK3l5FoBa1JRZCw"; //Vaya a @BotFather en telegram y cree un nuevo bot 
+    $apitoken = "5447149126:AAHu-QyI_NIupzoQfzWqqFjg3Jh5MHfITSY"; //Vaya a @BotFather en telegram y cree un nuevo bot 
     $website = "https://api.telegram.org/bot".$apitoken;
     error_reporting(0);
     date_default_timezone_set("America/Lima");
